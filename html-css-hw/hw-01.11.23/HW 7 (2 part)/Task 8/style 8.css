@@ -1,0 +1,30 @@
+.list {
+    display: flex;
+    flex-direction: column;
+}
+#email , #password {
+    height: 30px;
+    width: 300px;
+}
+label , input {
+    margin-top: 10px;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+p {
+    margin-top: 5px;
+    font-size: 15px;
+    color: rgb(159, 152, 152);
+}
+#submit {
+    color: white;
+    border-radius: 5px;
+    width: 70px;
+    height: 30px;
+    background-color: rgb(69, 69, 245);
+    border: none;
+}

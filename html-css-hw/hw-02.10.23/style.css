@@ -1,0 +1,44 @@
+.flex-conteiner {
+    background-color:rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    min-width: 300px;
+    max-width: 500px;
+}
+.img {
+    width: 230px;
+    height: 190px;
+    padding: 5px;
+    align-self: flex-start;
+}
+.h {
+    border:black;
+    background:whitesmoke;
+    box-shadow: 0 0 10px rgba(0 , 0 , 0.5);
+    margin:10px;
+    width: 235px;
+    padding: 0px 0px 0px 2px;
+    display:flex;
+    flex-direction:column;
+    height: 350px;
+}
+.div6 {
+    display:flex;
+    flex-direction:column;
+}
+button {
+    padding: 8px 77px 8px 77px;
+    background-color: gray;
+    color: white;
+    border: 0;
+    justify-content: center;
+    margin: 10px;
+}
+.h1 {
+    font-size: 15px;
+    align-self:flex-start;
+}
+p {
+    font-size: 13px;
+    text-align: left;
+}

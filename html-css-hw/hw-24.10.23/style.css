@@ -1,0 +1,76 @@
+.image-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color:gainsboro;
+    margin: -10px;
+}
+.image-words {
+    align-self: center;
+}
+.image-word {
+    margin: 0px;
+}
+.image-word1 {
+    font-size: 25px;
+}
+.image-word2 {
+    font-size: 60px;
+}
+.image-word3 {
+    font-size: 60px;
+}
+.image-word4 {
+    font-size: 15px;
+    margin: 15px 0px;
+}
+.image-btn {
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(37, 190, 37);
+    width: 125px;
+    height: 35px;
+}
+a:link {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.cards-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.card {
+    border-radius: 7px;
+    width: 20%;
+    height: 100px;
+    margin: 70px 5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.card1 {
+    background-color: rgb(170, 229, 244);
+}
+.card2 {
+    background-color: rgb(250, 168, 250);
+}
+.card3 {
+    background-color: rgb(222, 253, 175);
+}
+.card4 {
+    background-color: rgb(249, 229, 198);
+}
+.card-icons {
+    font-size: 40px;
+    margin-left: 10px;
+}
+.word {
+    margin-bottom: 10px;
+}
+.word2 {
+    margin-top: 5px;
+}

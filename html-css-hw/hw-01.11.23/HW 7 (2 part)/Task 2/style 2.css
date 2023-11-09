@@ -1,0 +1,12 @@
+.box-container {
+    display: flex;
+}
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    margin: 5px;
+}
+body {
+    background-color: purple;
+}

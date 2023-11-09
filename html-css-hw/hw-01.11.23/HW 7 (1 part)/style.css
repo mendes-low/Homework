@@ -1,0 +1,33 @@
+.box-container{
+    position: relative;
+    height: 300px;
+    width: 600px;
+    background-color: rgb(31, 31, 178);
+    color: white;
+    font-size: 20px;
+    left: 0;
+}
+.box1{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 400px;
+    width: 300px;
+    background-color:rgb(187, 38, 187);
+    color: white;
+    font-size: 20px;
+    z-index: -1000;
+}
+.box2{
+    height: 150px;
+    width: 150px;
+    background-color: rgb(12, 180, 12);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: white;
+    font-size: 20px;
+}
+h1 {
+    z-index: -1000;
+}
