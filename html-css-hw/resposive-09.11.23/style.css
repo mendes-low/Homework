@@ -181,13 +181,12 @@
 
 
 
-.nav-container {
+/* .nav-container {
     min-height: 100px;
     padding: 0 18px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 3px solid;
 }
   
 #menu{
@@ -205,10 +204,8 @@ label{
 }
 .list {
   display: block;
-  text-shadow: 0 1px 0 #383838;
   text-transform: uppercase;
   text-decoration: none;
-  font-family: 'Play';
   padding: 0 15px;
   transition: .4s;
 }
@@ -245,7 +242,7 @@ label{
     .list:hover{
     background-color: orange;
     }
-}
+} */
 
 
 
