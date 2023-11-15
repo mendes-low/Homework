@@ -48,8 +48,11 @@ student = {
 # print(student_lists)
 
 # 10
-print(student.pop('address'))
+# print(student.pop('address'))
 
+# 11
+# del student
+# print(student)
 
 
 
