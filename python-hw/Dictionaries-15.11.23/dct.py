@@ -12,17 +12,17 @@
 # print(dog)
 
 # 3
-student = {
-    'first_name':'Aziz',
-    'last_name':'Uskembaev',
-    'gender':'men',
-    'age':16,
-    'marital_status':False,
-    'skills':['HTML' , 'CSS' , 'JS'], 
-    'country':'Kazakhstan',
-    'city':'Almaty',
-    'address':'Almaty Arena'
-}
+# student = {
+#     'first_name':'Aziz',
+#     'last_name':'Uskembaev',
+#     'gender':'men',
+#     'age':16,
+#     'marital_status':False,
+#     'skills':['HTML' , 'CSS' , 'JS'], 
+#     'country':'Kazakhstan',
+#     'city':'Almaty',
+#     'address':'Almaty Arena'
+# }
 # print(student)
 
 # 4
