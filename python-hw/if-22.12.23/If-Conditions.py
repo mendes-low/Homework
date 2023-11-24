@@ -58,18 +58,31 @@
 # else:
 #     print("Error")
 
-# 2
+# 2 (1 variant)
 # season = input('Enter month: ')
-# if season == 'September' and season == 'October' and season == 'November':
+# if season == 'September' or season == 'October' or season == 'November':
 #     print('That time of year is Autumn')
-# elif season == 'December' and season == 'January' and season == 'February':
+# elif season == 'December' or season == 'January' or season == 'February':
 #     print('That time of year is Winter')
-# elif season == 'March' and season == 'April' and season == 'May':
+# elif season == 'March' or season == 'April' or season == 'May':
 #     print('That time of year is Spring')
-# elif season == 'June' and season == 'July' and season == 'August':
+# elif season == 'June' or season == 'July' or season == 'August':
 #     print('That time of year is Summer')
 # else:
 #     print('It is not mouth')
+
+# 2 (2 variant) 
+# user = input("Enter month: ")
+# seosen = ''
+# if user in ["September" , "October" , "November"]:
+#         season="Autumn"
+# elif user in ["December"  "January" , "February"]:
+#         season="Winter"
+# elif user in ["March" , "April" , "May"]:
+#        season="Spring"                
+# elif user in ["June" , "July" , "August"]:
+#         season="Summer"
+# print(f"The season for {user} is {season}")
 
 # 3
 # fruits = ['banana', 'orange', 'mango', 'lemon']
@@ -83,18 +96,18 @@
 
 # Level 3
 
-# person = {
-#     'first_name': 'Asabeneh',
-#     'last_name': 'Yetayeh',
-#     'age': 250,
-#     'country': 'Finland',
-#     'is_marred': True,
-#     'skills': ['JavaScript', 'React', 'Node', 'MongoDB', 'Python'],
-#     'address': {
-#         'street': 'Space street',
-#         'zipcode': '02210'
-#     }
-# }
+person = {
+    'first_name': 'Asabeneh',
+    'last_name': 'Yetayeh',
+    'age': 250,
+    'country': 'Finland',
+    'is_marred': True,
+    'skills': ['JavaScript', 'React', 'Node', 'MongoDB', 'Python'],
+    'address': {
+        'street': 'Space street',
+        'zipcode': '02210'
+    }
+}
 
 # 1
 # if ('skills' in person):
@@ -103,11 +116,11 @@
 #     print('skills is not in person')
 
 # 2
-# if ('skills' in person):
+# if 'skills' in person:
 #     if 'Python' in person['skills']:
 #         print('Python' in person['skills']) 
 # else:
-#     print('skills is not in person')
+#     print('skills is not in person')  
 
 # 3
 # if 'JavaScript' and 'React' in person['skills']:
